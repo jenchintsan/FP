@@ -1,0 +1,49 @@
+# Notes.txt
+
+# 
+ o in c
+   imperative programming
+     variable
+   Object-oriented programming in Java
+   Functional programming in Haskell
+   textbooks:
+   Java how to program
+   Programming in Haskell
+
+o FP?
+  o functional programming a style of programming
+  o function language: supports and encourages the functional style
+
+# fp.3
+1930s: lambda calculus, Alonzo Church, Alan Turing
+1950s: John McCarthy, Lisp, retaining variable assignments
+1960s: ISWIM by Peter Landin, first pure functional language, no assignmnets
+1970s: FP by John Backus, emphasizes higher-order functions and reasoning about programs
+        invented FORTRAN
+       ML by Robin Milner, introduced type inference and polimorphic types
+1970s-1980s: Miranda system by David Turner, lazy functional languages, Haskell is also a lazy language
+1987: Haskell, a standard lazy function language
+1990s: Phil Wadler, type classes and monads
+2003: Haskell Report by the committee, 2010 updated.
+2010-date: 
+
+? test qsort
+
+# fp.4
+cheat sheet
+index start with 0  ref. R/SAS/python
+0 is the identity of addition
+product [] is 1
+f a + b means (f a) + b
+Haskell Scripts: with .hs suffix
+Function and argument names must begin with a lower-case letter.
+List arguments usually have an s suffix on their name.
+Layout Rule: a sequence of definitions, each definition must begin in precisely the same column.
+Layout rule avoids the need for explicit syntax to indicate the grouping of definitions, for example C.
+
+Exercise 3,
+mylast xs = xs !! (length xs - 1)
+
+? exercise 4,5
+
+
