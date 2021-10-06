@@ -10,13 +10,13 @@
    Java how to program
    Programming in Haskell
 
-o FP?
+o ch1.2, fp.2
   o functional programming a style of programming
   o function language: supports and encourages the functional style
 
-# fp.3
+# ch1.4, fp.3
 1930s: lambda calculus, Alonzo Church, Alan Turing
-1950s: John McCarthy, Lisp, retaining variable assignments
+1950s: Lisp, John McCarthy, retaining variable assignments
 1960s: ISWIM by Peter Landin, first pure functional language, no assignmnets
 1970s: FP by John Backus, emphasizes higher-order functions and reasoning about programs
         invented FORTRAN
