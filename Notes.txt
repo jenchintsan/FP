@@ -27,7 +27,11 @@ o ch1.2, fp.2
 2003: Haskell Report by the committee, 2010 updated.
 2010-date: 
 
-? test qsort
+qsort [] = []
+qsort (x:xs) = qsort ys ++ [x] ++ qsort zs
+           where
+              ys = [a | a <- xs, a <= x]
+              zs = [b | b <- xs, b > x]
 
 # fp.4
 cheat sheet
@@ -42,8 +46,13 @@ Layout Rule: a sequence of definitions, each definition must begin in precisely 
 Layout rule avoids the need for explicit syntax to indicate the grouping of definitions, for example C.
 
 Exercise 3,
-mylast xs = xs !! (length xs - 1)
+mylast1 xs = xs !! (length xs - 1)
 
-? exercise 4,5
+Ex.4
+mylast2 xs = head (reverse xs)
 
+Ex.5
+myinit1 xs = reverse (tail (reverse xs))
+
+myinit2 xs = take (length xs -1) xs
 
